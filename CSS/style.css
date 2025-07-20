@@ -1,0 +1,218 @@
+/* ?common CSS Code */
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  background-color: black;
+}
+/* ? Common CSS Code End */
+
+/* ? Section Common CSS Start */
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+span {
+  font-size: 18px;
+  letter-spacing: 7px;
+  font-weight: bold;
+  color: #ffc178;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 64px;
+  color: white;
+  padding: 13px 0px;
+}
+
+a {
+  font-size: 18px;
+  color: #fbd784;
+}
+p {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+.section-item{
+  padding-top: 260px;
+}
+
+/* ? Section Common CSS End */
+
+/* ? Nav ber section Start*/
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.navber {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  gap: 45px;
+}
+.menu ul li a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+.menu ul li a:hover {
+  color: #000000;
+}
+/* ?Nav ber section End*/
+
+/* ? Hero Benar section Start*/
+#hero_Section {
+  background-image: url(/Image/Hero\ part.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-attachment: fixed; */
+}
+.benar-part {
+  padding: 375px 0px;
+}
+
+.benar-part h1 {
+  font-size: 96px;
+  color: #fff;
+}
+
+/* ? Hero Benar section End*/
+
+/* ? HolyDay Benar section End*/
+
+.holyday-warp {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 139px;
+}
+
+.holyday-text p {
+  padding-bottom: 67px;
+}
+
+/* ?HolyDay Benar section End*/
+
+/* ?Slider  section Start*/
+
+.slider-part {
+  background-image: url(/Image/Slider\ part\ image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.slider-content{
+  padding: 560px 194px 32px  194px;
+  margin: 0 auto;
+  text-align: center;
+}
+.slider-content p{
+  color: white;
+  padding-bottom: 26px;
+}
+/* ? Slider  section End*/
+
+/* ? Project section Start*/
+
+
+.project-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ?Project section End*/
+
+/* ?Cluture section Start*/
+.culture-item{
+  display: flex;
+  align-items: center;
+  gap: 37px;
+}
+
+.text-item p{
+  color: #fff;
+  font-size: 18px;
+  padding-bottom: 47px;
+}
+/* ?Cluture section End*/
+
+
+/* ? Footer section Start*/
+.footer-box1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-btn{
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+.item-btn button{
+  background: #FFA343;
+  padding: 19px 67px;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footer-box2{
+  padding-top: 100px;
+  display: flex;
+}
+
+
+.footer-content h4{
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  padding-bottom: 52px;
+}
+.footer-content p{
+  font-size: 14px;
+  color: white;
+}
+.footer-icon{
+  display: flex;
+  gap: 29px;
+  padding: 36px 0px;
+}
+.footer-icon i{
+    cursor: pointer;
+}
+.footer-icon i{
+  color: #ffffff;
+}
+.footer-icon i:hover{
+  color: #FFA343;
+}
+
+
+
+/* ? Footer section End*/
