@@ -20,4 +20,23 @@ A visually engaging demo travel website showcasing the beauty of Indonesian natu
 ---
 
 ## 📁 Project Structure
+Toury_s_Project/
+│
+├── index.html                ← Main HTML File
+│
+├── CSS/
+│   └── style.css             ← All CSS styles
+│
+├── Image/                    ← All images used in the site
+│   ├── TOURy’s.png
+│   ├── Hero part.jpg
+│   ├── holyday image.jpg
+│   ├── Slider part image.jpg
+│   ├── Project image.png
+│   ├── culture.jpg
+│   └── TOURy’s Footer.png
+│
+├── fonts/                    ← (Optional: custom fonts if you want to host locally)
+│
+└── README.md                 ← (Optional: description of project for version control like Git)
 
