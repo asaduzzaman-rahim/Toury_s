@@ -9,7 +9,7 @@ A visually engaging demo travel website showcasing the beauty of Indonesian natu
 
 ## 🌐 Live Preview
 
-> *(Optional)* You can host this project on [GitHub Pages](https://github.com/asaduzzaman-rahim/Toury_s) and place the link here.
+> *(Optional)* You can host this project on [Touryst Demo Website](https://tourystdemo.netlify.app/) and place the link here.
 
 ---
 
